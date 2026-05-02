@@ -1,4 +1,4 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
@@ -13,7 +13,7 @@ module.exports = defineConfig({
         overwrite: false,
         html: true,
         json: false,
-        timestamp: "mmddyyyy_HHMMss"
+        timestamp: 'mmddyyyy_HHMMss'
     },
    
   }
